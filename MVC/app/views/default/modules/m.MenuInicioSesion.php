@@ -1,0 +1,1 @@
+<a href="index.php?action=registrarse" class="inicioSesion"> INICIO SESION </a>

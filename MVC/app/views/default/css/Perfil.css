@@ -1,0 +1,123 @@
+/* IMAGEN FONDO */
+
+body { 
+
+  background-image: url("http://localhost/MVC/app/views/default/images/lucha.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+/* LOGOTIPO */
+
+#imgPerfil{
+
+  display: flex;
+  flex-wrap: ltr;
+  justify-content: center;
+  }
+
+#fotoPerfil{
+
+  height: 200px;
+  width: 225px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+#nick{
+
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 25px;
+    color: #0D2C54;
+ text-align: center;
+ 
+}
+
+.nick2{
+ margin-top: 25px;
+
+}
+
+
+/* PRECIOS JUEGOS */
+
+#juegos{
+    
+    display: flex;
+     padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.juego{
+
+  margin-top: 25px;
+  width: 300px;
+  height: 120px;
+}
+
+
+
+@media screen and (min-width: 1100px) {
+  
+
+#juegos{
+
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 1100px){
+  
+
+  #juegos{
+
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+}
+
+.mensajeSeccion{
+  background-color: white;
+  color: black;
+  width: 100%;
+  text-align: center;
+  border: 3px solid #00A6ED;
+  margin-top: 25px;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.mensaje{
+  background-color: white;
+  font-size: 30px;
+  color: black;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
